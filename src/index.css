@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@import "./assets/fonts/style.css";
+
+@theme {
+    --font-hagrid: "Hagrid Trial", 'sans-serif';
+    --font-binger:"Binger Demo",Inter;
+}
+
+
+@font-face {
+    font-family: 'Hagrid Trial';
+    font-style: normal;
+    font-weight: bolder;
+    src: url('./assets/fonts/Hagrid-Regular-trial.woff') format('woff');
+}
+@font-face {
+  font-family: "Binger Demo";
+  src: url("./assets/fonts/BingarDEMO-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+
+
